@@ -78,7 +78,7 @@ class CheckboxSVGMap extends React.Component {
 	 */
 	handleLocationClick(event) {
 		event.preventDefault();
-		this.toggleLocation(event);
+		// this.toggleLocation(event);
 	}
 
 	/**
@@ -90,7 +90,7 @@ class CheckboxSVGMap extends React.Component {
 		// Spacebar
 		if (event.keyCode === 32) {
 			event.preventDefault();
-			this.toggleLocation(event);
+			// this.toggleLocation(event);
 		}
 	}
 
